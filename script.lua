@@ -7,9 +7,7 @@ function renameComponents(c)
   end
 
   if c.Caption then
-    if c.Caption == "Next Scan" then
-      c.Caption='Next'
-    elseif c.Caption == "Memory Scan Options" then
+    if c.Caption == "Memory Scan Options" then
       c.Caption='Mem Options'
     elseif c.Caption == "Applications" then
       c.Caption='App'
@@ -30,7 +28,7 @@ function renameComponents(c)
     elseif c.Caption == "Use the following CE Kernel routines instead of the original windows version" then
       c.Caption='Use current KRN instead of the original windows version'
     elseif c.Caption == "Query memory region routines" then
-      c.Caption='Query  Mem region routines'
+      c.Caption='Query Mem reg routines'
     elseif c.Caption == "Read/Write Process Memory" then
       c.Caption='Läs/Skriv Mem (will cause slower)'
     elseif c.Caption == "Open Process" then
@@ -41,7 +39,7 @@ function renameComponents(c)
       c.Caption='Fast scan on by default'
     elseif c.Caption == "Don't scan memory that is protected with the No Cache option" then
       c.Caption='Don\'t san mem that is protected with the No Cache option'
-    elseif c.Caption == "vDon't scan memory that is protected with the Write Combine option" then
+    elseif c.Caption == "Don't scan memory that is protected with the Write Combine option" then
       c.Caption='Don\'t san mem that is protected with the Write Combine option'
     elseif c.Caption == "Pause while scanning on by default" then
       c.Caption='Pause while sanning on by default'
@@ -81,30 +79,6 @@ function renameComponents(c)
       c.Caption='wtf'
     elseif c.Caption == "Recifense" then
       c.Caption='wtf'
-    elseif c.Caption == "mgr.inz.Player justa_dude SER[G]ANT Atom0s" then
-      c.Caption='wtf'
-    elseif c.Caption == "And all the other people that helped me out" then
-      c.Caption='wtf'
-    elseif c.Caption == "Metael" then
-      c.Caption='wtf'
-    elseif c.Caption == "Kickclock" then
-      c.Caption='wtf'
-    elseif c.Caption == "A. Wiseman SWAT-Squad Psy" then
-      c.Caption='wtf'
-    elseif c.Caption == "Geri" then
-      c.Caption='wtf'
-    elseif c.Caption == "Emperor" then
-      c.Caption='wtf'
-    elseif c.Caption == "Jgoemat" then
-      c.Caption='wtf'
-    elseif c.Caption == "supMarco" then
-      c.Caption='wtf'
-    elseif c.Caption == "A. Wiseman" then
-      c.Caption='wtf'
-    elseif c.Caption == "SWAT-Squad" then
-      c.Caption='wtf'
-    elseif c.Caption == "Psy" then
-      c.Caption='wtf'
     elseif c.Caption == "mgr.inz.Player" then
       c.Caption='wtf'
     elseif c.Caption == "justa_dude" then
@@ -113,10 +87,67 @@ function renameComponents(c)
       c.Caption='wtf'
     elseif c.Caption == "Atom0s" then
       c.Caption='wtf'
-    elseif c.Caption == "Dark Byte" then
+    elseif c.Caption == "And all the other people that helped me out" then
       c.Caption='wtf'
-    elseif c.Caption == "Read/Write Process Memory (Will cause slower scans)" then
+    elseif c.Caption == "Metael" then
+      c.Caption='wtf'
+    elseif c.Caption == "Kickclock" then
+      c.Caption='wtf'
+    elseif c.Caption == "A. Wiseman" then
+      c.Caption='wtf'
+    elseif c.Caption == "SWAT-Squad" then
+      c.Caption='wtf'
+    elseif c.Caption == "Psy" then
+      c.Caption='wtf'
+    elseif c.Caption == "Jgoemat" then
+      c.Caption='wtf'
+    elseif c.Caption == "supMarco" then
+      c.Caption='wtf'
+    elseif c.Caption == "Emperor" then
+      c.Caption='wtf'
+    elseif c.Caption == "Geri" then
+      c.Caption='wtf'
+    elseif c.Caption == "SWAT-Squad Psy" then
+      c.Caption='wtf'
+    elseif c.Caption == "A. Wiseman SWAT-Squad Psy" then
+      c.Caption='wtf'
+    elseif c.Caption == "mgr.inz.Player justa_dude SER[G]ANT Atom0s" then
+      c.Caption='wtf'
+    elseif c.Caption == "Read/Write Process Memory" then
       c.Caption='Läs/skriv app mem'
+    elseif c.Caption == "First Scan" then
+      c.Caption='First'
+    elseif c.Caption == "Next Scan" then
+      c.Caption='next'
+    elseif c.Caption == "Undo Scan" then
+      c.Caption='undo'
+    elseif c.Caption == "No Process Selected" then
+      c.Caption='wtf'
+    elseif c.Caption == "Memory View" then
+      c.Caption='mem view'
+    elseif c.Caption == "Snapshot handler" then
+      c.Caption='snpsht hndl'
+    elseif c.Caption == "lua script" then
+      c.Caption='script'
+    elseif c.Caption == "Show Cheat Table Lua Script" then
+      c.Caption='show script'
+    elseif c.Caption == "Resynchronize forms with Lua" then
+      c.Caption='Resynchronize forms with lau'
+    elseif c.Caption == "Read/Write Process Memory  (Will cause slower scans)" then
+      c.Caption='Re/Wr PRoccss Mem'
+    elseif c.Caption == "Query Mem region routines" then
+      c.Caption='Re/Wr PRoccss Mem'
+
+    elseif c.Caption == "Prefered breakpoint method" then
+      c.Caption='Prefered brekpnt method'
+    elseif c.Caption == "Hardware Breakpoints (Max 4)" then
+      c.Caption='Hardware brkpnts (Max 4)'
+    elseif c.Caption == "Int3 instructions (Execute BP only, falls back to hardware bp) (Unlimited)" then
+      c.Caption='Int3 instrktion (Execute BP only, falls back to hardware bp) (Unlimited)'
+    elseif c.Caption == "Page exceptions (Extremely slow to unplayable, buggy, best used if nothing else works. Does not use debug registers)" then
+      c.Caption='Page exceptions (Extremely slow to unplayable, buggy, best used if nothing else works. Does not use dbg rgstr)'
+    elseif c.Caption == "Query Mem region routines" then
+      c.Caption='Re/Wr PRoccss Mem'
     end
   end
 end
