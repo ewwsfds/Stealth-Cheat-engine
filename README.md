@@ -1,4 +1,6 @@
 # Make Cheat Engine Stealthier – Tutorial
+Very simple Toturial to make cheat engine bypass user mode anti cheat
+
 
 ## 1. Download Cheat Engine Source
 
@@ -15,7 +17,11 @@ Click the green **“Code”** button → then click **“Download ZIP”**
 
 ## 2. Prepare the Files
 
-After downloading and extracting the source code, you need to replace/add some files.
+After downloading and extracting the source code, add these files to the corresponding folder.
+These files are found on this repo:
+`DBK32functions.pas`
+`cheatengine.lpi`
+`axmed-x86_64-SSE4-AVX2.vmp.exe`
 
 ### File replacements
 
