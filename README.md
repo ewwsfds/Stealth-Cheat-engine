@@ -51,29 +51,7 @@ Inside the program:
 
 ---
 
-## 5. Rename Project Folders (Stealth Step)
+## Final step: Rename Project Folders (Stealth Step)
 
-To reduce detection from simple signature-based checks, rename obvious folders in the project.
+- Rename every folder that is "cheat engine" to something else the main folder
 
-### What to rename:
-
-- Rename the main folder:
-  - `cheat engine` → `system_core` (or any normal-looking name)
-
-- Rename other obvious folders:
-  - `dbk32`
-  - `cheat engine`
-  - any folder containing words like:
-    - `cheat`
-    - `engine`
-    - `dbk`
-
-### Important:
-
-- Do NOT break file paths or references inside the project
-- Keep structure intact after renaming
-- Only change folder names, not internal logic
-
-### Goal:
-
-Make the project look like a normal system tool instead of something named Cheat Engine
